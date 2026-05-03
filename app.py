@@ -1,5 +1,5 @@
 import streamlit as st
-import PyPDF2
+import pypdf
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -49,7 +49,7 @@ def extract_text_from_pdf(uploaded_file):
     text = ""
 
     try:
-        pdf_reader = PyPDF2.PdfReader(uploaded_file)
+        pdf_reader = pypdf.PdfReader(uploaded_file)
 
         for page in pdf_reader.pages:
 
