@@ -3,3 +3,5 @@ sentence-transformers
 torch
 pypdf
 scikit-learn
+numpy
+transformers
