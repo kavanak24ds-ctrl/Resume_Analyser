@@ -1,7 +1,5 @@
 streamlit
 sentence-transformers
-torch==2.1.0
-pypdf
+pypdf==4.3.1
 scikit-learn
 numpy
-transformers
